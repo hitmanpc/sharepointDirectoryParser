@@ -7,7 +7,7 @@ namespace DirectoryParser
 {
     public partial class Form1 : Form
     {
-        private static string searchString = @"[!#%&*{}\:<>?\/|""]";
+        private static string searchString = @"['!#%&*{}\:<>?\/|""]";
         private Regex regEx = new Regex(searchString, RegexOptions.IgnoreCase | RegexOptions.ExplicitCapture);
 
         public Form1()
